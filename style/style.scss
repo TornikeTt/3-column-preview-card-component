@@ -1,0 +1,17 @@
+$F1_primaryFont: "Big Shoulders Display", serif;
+$F2_secondaryFont: "Lexend Deca", serif;
+
+// Primary Colors
+$C1_brightOrange: hsl(31, 77%, 52%);
+$C2_darkCyan: hsl(184, 100%, 22%);
+$C3_veryDarkCyan: hsl(179, 100%, 13%);
+
+// Neutral Colors
+$C4_transparentWhite: hsla(0, 0%, 100%, 0.75);
+$C5_veryLightGray: hsl(0, 0%, 95%);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
