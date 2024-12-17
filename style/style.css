@@ -20,17 +20,55 @@ main {
   overflow: hidden;
   display: flex;
 }
+main .cards {
+  padding: 40px;
+}
+main .cards section {
+  margin-top: 20px;
+}
+main .cards section h1 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", serif;
+  color: hsl(0, 0%, 95%);
+  font-size: 35px;
+}
+main .cards section p {
+  margin-top: 20px;
+  font-family: "Lexend Deca", serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+}
+main .cards footer button {
+  margin-top: 100px;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-family: "Lexend Deca", serif;
+  font-weight: 500;
+}
 
 .first_Card {
   background-color: hsl(31, 77%, 52%);
+}
+.first_Card footer button {
+  color: hsl(31, 77%, 52%);
 }
 
 .second_Card {
   background-color: hsl(184, 100%, 22%);
 }
+.second_Card footer button {
+  color: hsl(184, 100%, 22%);
+}
 
 .third_Card {
   background-color: hsl(179, 100%, 13%);
+}
+.third_Card footer button {
+  color: hsl(179, 100%, 13%);
 }
 
 /*# sourceMappingURL=style.css.map */
