@@ -71,4 +71,44 @@ main .cards footer button {
   color: hsl(179, 100%, 13%);
 }
 
+@media (max-width: 375px) {
+  main {
+    width: 85%;
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+  main .cards {
+    padding: 42px;
+  }
+  main .cards section {
+    margin-top: 20px;
+  }
+  main .cards section h1 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", serif;
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+  }
+  main .cards section p {
+    margin-top: 20px;
+    font-family: "Lexend Deca", serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+  }
+  main .cards footer button {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-family: "Lexend Deca", serif;
+    font-weight: 500;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

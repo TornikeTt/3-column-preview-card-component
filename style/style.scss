@@ -21,6 +21,7 @@ body {
     height: 100vh;
     background-color: $C5_veryLightGray;
 
+    // Center the main element horizontally and vertically
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@ main {
     height: 470px;
     border-radius: 10px;
     overflow: hidden;
-    display: flex;
+    display: flex; // Flex container for the .cards element
 
     .cards {
         padding: 40px;
@@ -93,6 +94,55 @@ main {
     footer {
         button {
             color: $C3_veryDarkCyan;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        width: 85%;
+        height: 90%;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        flex-direction: column;
+
+        .cards {
+            padding: 42px;
+
+            section {
+                margin-top: 20px;
+
+                h1 {
+                    text-transform: uppercase;
+                    font-family: $F1_primaryFont;
+                    color: $C5_veryLightGray;
+                    font-size: 35px;
+                }
+
+                p {
+                    margin-top: 20px;
+                    font-family: $F2_secondaryFont;
+                    font-size: 15px;
+                    color: $C4_transparentWhite;
+                    line-height: 25px;
+                }
+            }
+
+            footer {
+                button {
+                    cursor: pointer;
+                    margin-top: 20px;
+                    width: 140px;
+                    height: 45px;
+                    border-radius: 20px;
+                    outline: none;
+                    border: none;
+                    font-family: $F2_secondaryFont;
+                    font-weight: 500;
+                }
+            }
         }
     }
 }
