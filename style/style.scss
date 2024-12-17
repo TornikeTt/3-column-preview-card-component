@@ -15,3 +15,33 @@ $C5_veryLightGray: hsl(0, 0%, 95%);
     margin: 0px;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: $C5_veryLightGray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 860px;
+    height: 470px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.first_Card {
+    background-color: $C1_brightOrange;
+}
+
+.second_Card {
+    background-color: $C2_darkCyan;
+}
+
+.third_Card {
+    background-color: $C3_veryDarkCyan;
+}
